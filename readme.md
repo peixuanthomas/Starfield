@@ -61,8 +61,3 @@ You can adjust these constants in `src/main.rs`:
 
 3. Rendered at 60 FPS for smooth animation
    - 以 60 FPS 渲染，实现平滑动画
-
-## Author / 作者
-
-Created with Rust and minifb
-用 Rust 和 minifb 创建
