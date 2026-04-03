@@ -47,7 +47,7 @@ fn main() {
 
     let mut meteors: Vec<Meteor> = Vec::new();
 
-    window.limit_update_rate(Some(std::time::Duration::from_micros(16600))); // ~60fps
+    window.set_target_fps(60); // ~60fps
 
     while window.is_open() && !window.is_key_down(Key::Escape) {
         buffer.fill(0);
